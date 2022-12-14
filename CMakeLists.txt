@@ -1,0 +1,29 @@
+cmake_minimum_required(VERSION 3.23)
+project(study_01 C)
+
+set(CMAKE_C_STANDARD 99)
+
+
+
+ADD_SUBDIRECTORY(00)
+ADD_SUBDIRECTORY(day01)
+ADD_SUBDIRECTORY(day02)
+ADD_SUBDIRECTORY(day03)
+ADD_SUBDIRECTORY(day04)
+ADD_SUBDIRECTORY(day05)
+ADD_SUBDIRECTORY(day06)
+ADD_SUBDIRECTORY(day07)
+ADD_SUBDIRECTORY(day08)
+ADD_SUBDIRECTORY(day09)
+ADD_SUBDIRECTORY(day10)
+ADD_SUBDIRECTORY(day11)
+ADD_SUBDIRECTORY(day12)
+ADD_SUBDIRECTORY(day13)
+
+
+
+
+
+add_executable(abu day13/abu.c)
+add_executable(abv day13/abv.c)
+add_executable(ccc  "day13/ccc .c")
